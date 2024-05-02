@@ -5,7 +5,8 @@ import search from './assets/icons/search.svg'
 function App() {
 
   const [input, setInput] = useState('')
-
+  const { weather, thisLocation, values, place, setPlace } = useStateContext()
+  // console.log(weather)
 
   return (
     <div className='w-full h-screen text-white px-8'>

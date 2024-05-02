@@ -18,11 +18,11 @@ export const StateContextProvider = ({ children }) => {
                 aggregateHours: '24',
                 location: place,
                 contentType: 'json',
-                unitGroup: 'metric',
+                unitGroup: 'us',
                 shortColumnNames: 0,
             },
             headers: {
-                'X-RapidAPI-Key': import.meta.env.VITE_API_KEY,
+                'X-RapidAPI-Key': 'a33d1bca91msh1f155363da67ee1p1d8a03jsn9411175ea540',
                 'X-RapidAPI-Host': 'visual-crossing-weather.p.rapidapi.com'
             }
         }

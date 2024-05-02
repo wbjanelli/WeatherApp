@@ -5,7 +5,7 @@ import './index.css'
 import { StateContextProvider } from './Context/index.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <StateContextProvidere>
+  <StateContextProvider>
     <App />
-  </StateContextProvidere>,
+  </StateContextProvider>,
 )
